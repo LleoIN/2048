@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <div id="topSection">
+        <div id="title">2048</div>
+        <div id="scoreSection">
+            <div id="scoreFrame">
+                score :
+                <div id="score"></div>
+            </div>
+            <div id="bestScoreFrame">
+                best score :
+                <div id="bestScore"></div>
+            </div>
+        </div>
+        <div id="buttonContainer">
+            <button id="reButton" onclick="newGame()">New game</button>
+        </div>
+    </div>
+    
+    <div id="scorePlus">0</div>
+
+    <div id="alertFrame">
+        <table id="field"> </table>
+        <div id="alert">
+            <div id="gameover">Game Over</div><br>
+            <button id="gameReButton" onclick="newGame()">try again</button>
+        </div>
+        <div id="win">
+            <div id="youWin">You win!</div><br>
+            <button id="winReButton" onclick="newGame()">try again</button>
+        </div>
+    </div>
+
+    <script src="project.js"></script>
+    <br><br><br><br><br>
+
+
+
+</body>
+
+</html>

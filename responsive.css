@@ -1,0 +1,103 @@
+@media screen and (max-width: 900px) {
+    #topSection {
+        margin-bottom: 370px;
+    }
+
+    #title {
+        width: 98%;
+        font-size: 120px;
+    }
+
+    #scoreSection {
+        clear: both;
+        justify-content: center;
+        width: 98%;
+        font-size: 20px;
+    }
+
+    #scoreFrame {
+        width: 50%;
+    }
+
+    #bestScoreFrame {
+        width: 50%;
+    }
+
+    #alertFrame {
+        width: 500px;
+        height: 500px;
+    }
+
+    .cell {
+        font-size: 35px;
+        width: 106px; 
+        height: 106px;
+    }
+
+    #score {
+        padding: 30px 10px 10px 13%;
+        font-size: 35px;
+    }
+
+    #bestScore {
+        padding: 30px 10px 10px 13%;
+        font-size: 35px;
+    }
+
+    #gameover {
+        left: 11%;
+    }
+
+    #gameReButton {
+        left: 37%;
+    }
+
+    #youWin {
+        left: 22%;
+    }
+
+    #winReButton {
+        left: 37%;
+    }
+    #buttonContainer{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #alertFrame {
+        width: 350px;
+        height: 350px;
+    }
+    .cell{
+        font-size: 20px;
+        border: 1px #7c776d solid;  
+        width: 76px; 
+        height: 76px;
+    }
+    #score {
+        padding: 30px 10px 10px 7%;
+        font-size: 30px;
+    }
+
+    #bestScore {
+        padding: 30px 10px 10px 7%;
+        font-size: 30px;
+    }
+    #gameover {
+        font-size: 60px;
+        left: 10%;
+    }
+    #gameReButton {
+        top:60%;
+        left: 33%;
+    }
+    #youWin {
+        font-size: 60px;
+        left: 20%;
+    }
+    #winReButton {
+        top:60%;
+        left: 33%;
+    }
+}
